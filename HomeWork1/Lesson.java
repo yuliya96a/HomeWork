@@ -1,16 +1,12 @@
 public class Lesson {
 	
-	protected String type;
 	protected int course;
 	protected String group;
 	protected String teacher;
 	protected int audience;
 	protected float time;
 
-	public void setType(String type) {
-    this.type = type;
-  }
-  
+
   public void setCourse(String course) {
     this.course = course;
   }
@@ -32,7 +28,7 @@ public class Lesson {
   }
 
    public String read() {
-      String result = "About Lesson \nType: " + this.type + "\nCourse: " + this.course + "\nGroup: " + this.group + "\nTeacher: " + this.teacher + "\nAudience: " + this.audience + "\nTime: " + this.time;
+      String result = "About Lesson "\nCourse: " + this.course + "\nGroup: " + this.group + "\nTeacher: " + this.teacher + "\nAudience: " + this.audience + "\nTime: " + this.time;
       return result;
    }
 }
