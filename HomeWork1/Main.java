@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         Lesson lessons1 = new Lesson();
 		
-		    lessons1.setType ("Practical");
         lessons1.setCourse("2");
         lessons1.setGroup("Economic Cybernetics");
         lessons1.setTeacher("Fedorov N.");
