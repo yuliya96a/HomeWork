@@ -33,7 +33,7 @@ public class Student {
         this.number++;
     }
     public String toString() {
-        String result = this.subject + " ready to pay salary for " + this.mark + " employees." + "\n--------\n";
+        String result = this.subject + " " + this.mark + " mark" + "\n--------\n";
         for(int i = 0; i < this.number; i++) {
             result += this.examArray[i].toString();
         }
