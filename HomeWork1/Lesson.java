@@ -1,26 +1,20 @@
 package com.company;
 
+
 public class Lesson {
 
-    protected int course;
-    protected String group;
+    protected String coursename;
     protected String teachername;
     protected int audience;
     protected double time;
 
 
-    public void setCourse(int course) {
-        this.course = course;
-    }
-    public int getCourse() {
-        return course;
-    }
 
-    public void setGroup(String group) {
-        this.group = group;
+    public void setCoursename(String coursename) {
+        this.coursename = coursename;
     }
-    public String getGroup() {
-        return group;
+    public String getCoursename() {
+        return coursename;
     }
 
     public void setTeachername(String teachername) {
@@ -46,19 +40,16 @@ public class Lesson {
 
     public Lesson () {}
 
-    public Lesson (int course, String group ,String teacher, int audience, double time) {
-        this.course = course;
-        this.group = group;
+    public Lesson (String coursename ,String teacher, int audience, double time) {
+
+        this.coursename = coursename;
         this.teachername = teacher;
         this.audience = audience;
         this.time = time;
 
     }
     public String read() {
-        String result = "\nCourse: " + this.course + "\nGroup: " + this.group + "\nTeacher: " + this.teachername + "\nAudience: " + this.audience + "\nTime: " + this.time;
+        String result = "\nCoursename: " + this.coursename + "\nTeacher: " + this.teachername + "\nAudience: " + this.audience + "\nTime: " + this.time;
         return result;
     }
 }
-
-
-
