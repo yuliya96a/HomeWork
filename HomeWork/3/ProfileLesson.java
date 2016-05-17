@@ -4,10 +4,6 @@ package com.company;
 public class ProfileLesson extends Lesson {
     protected int numberOfLabs;
 
-    public ProfileLesson(int numberOfLabs) {
-        this.numberOfLabs = numberOfLabs;
-    }
-
 
     public ProfileLesson(String coursename, String teacher, int audience, double time, int numberOfLabs) {
         super(coursename, teacher, audience, time);
